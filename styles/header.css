@@ -1,0 +1,25 @@
+.nav-bar {
+  padding: 40px;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar ul li a {
+  font-size: 24px;
+  font-weight: 300;
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+}
+
+.nav-bar ul li a:hover {
+  background-color: #ccc;
+}
